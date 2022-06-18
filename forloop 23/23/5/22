@@ -1,0 +1,171 @@
+# # soal no 1
+# data = [1,2,3,4,5,6]
+
+# for i in data:
+#     print (i)
+#     print ("="*100)
+
+# # # soal no 2
+# data = [
+#     {'nama': 'mahasiswa 1', 'nim': '1812831203'},
+#     {'nama': 'mahasiswa 2', 'nim': '1813452345'},
+#     {'nama': 'mahasiswa 3', 'nim': '1812452345'},
+#     {'nama': 'mahasiswa 4', 'nim': '1816523452'},
+#     {'nama': 'mahasiswa 5', 'nim': '1814563454'}
+# ]
+# for i in data :
+#     print (f"nim: {i['nim']}")
+#     print (f"nama: {i['nama']}")
+#     print ("="*100)
+
+# # no 3
+# data = [
+#     {'nama': 'mahasiswa 1', 'nim': '1812831203','aktif': True},
+#     {'nama': 'mahasiswa 2', 'nim': '1813452345','aktif': True},
+#     {'nama': 'mahasiswa 3', 'nim': '1812452345','aktif': False},
+#     {'nama': 'mahasiswa 4', 'nim': '1816523452','aktif': False},
+#     {'nama': 'mahasiswa 5', 'nim': '1814563454','aktif': True}
+# ]
+
+# for i in data :
+#     if i['aktif']==False: 
+#         break
+#     print(f"nim:{i['nim']}")
+#     print(f"nama:{i['nama']}")
+#     print("="*100)
+
+# # no 4
+# data = [
+#     {'nama': 'mahasiswa 1', 'nim': '1812831203','aktif': True},
+#     {'nama': 'mahasiswa 2', 'nim': '1813452345','aktif': True},
+#     {'nama': 'mahasiswa 3', 'nim': '1812452345','aktif': False},
+#     {'nama': 'mahasiswa 4', 'nim': '1816523452','aktif': False},
+#     {'nama': 'mahasiswa 5', 'nim': '1814563454','aktif': True}
+# ]
+
+# for i in data :
+#     print(f"nim: {i['nim']}")
+#     print(f"nama: {i['nama']}")
+#     print("=" *100)
+#     if i['aktif']==False : 
+#         break
+
+# # no 5
+# data = [
+#    {'nama' : 'mahasiswa 1', 'nim': '1812831203', 'aktif': True},
+#    {'nama' : 'mahasiswa 2', 'nim': '1813452345', 'aktif': True},
+#    {'nama' : 'mahasiswa 3', 'nim': '1812452345', 'aktif': False},
+#    {'nama' : 'mahasiswa 4', 'nim': '1816523452', 'aktif': False},
+#    {'nama' : 'mahasiswa 5', 'nim': '1814563454', 'aktif': True}
+# ]
+
+# for i in data :
+#    if i['aktif'] == False :
+#        continue
+#    print(f"nim: {i['nim']}")
+#    print(f"nama: {i['nama']}")
+#    print("="*100)
+
+# # no 6
+# data = [
+#    {'nama' : 'mahasiswa 1', 'nim': '1812831203', 'aktif': True},
+#    {'nama' : 'mahasiswa 2', 'nim': '1813452345', 'aktif': True},
+#    {'nama' : 'mahasiswa 3', 'nim': '1812452345', 'aktif': False},
+#    {'nama' : 'mahasiswa 4', 'nim': '1816523452', 'aktif': False},
+#    {'nama' : 'mahasiswa 5', 'nim': '1814563454', 'aktif': True}
+# ]
+
+# for i in data :
+#    print(f"nim: {i['nim']}")
+#    print(f"nama: {i['nama']}")
+#    print("=" * 100)
+#    if i['aktif'] == False :
+#        continue
+
+# # no 7
+# hitung = 0
+
+# while hitung < 20 :
+#    hitung += 1
+#    print(hitung)
+
+# # no 8
+# data = [ ]
+
+# while len(data) < 6 :
+#    inputUser = input("masukkan angka: ")
+#    data.append(int(inputUser))
+
+# # print(data)
+
+# # # no 9
+# data = []
+
+# while len(data) < 6 :
+#    inputUser = input("masukkan angka: ")
+#    if int(inputUser) % 2 == 0 :
+#        break
+#    data.append(int(inputUser))
+
+# print(data)
+
+# # no 10
+
+# # data=[]
+
+# # while len(data)<6:
+# #     inputUser = input("masukan angka:")
+# #     if int(inputUser)%2==0:
+# #         continue
+# #     data.append(int(inputUser))
+
+# # print(data)
+
+# no 11
+# a=1
+
+# while a<=5:
+#     print('*'*a)
+#     a+=1
+
+# # no 12
+# a=5
+
+# while a>=1:
+#     print('*'*a)
+#     a-=1
+
+# # # no 13
+# data=[]
+
+# while True:
+#     inputUser = input("masukan angka: ")
+#     if inputUser =='n':
+#         break
+#     data.append(inputUser)
+    
+#     print(data)
+
+
+# # # no 14
+# jumlah = 0
+# for nilai in data:
+#     jumlah +=int(nilai)
+
+# print(jumlah)
+
+data = []
+
+while True:
+    inputUser = int(input("masukan angka: "))
+    if inputUser == 0:
+        break
+    data.append(inputUser)
+    
+    print(data)
+
+jumlah = 0
+for nilai in data:
+    if nilai %2 == 0:
+        jumlah = int(nilai)
+        print(jumlah)
